@@ -1,4 +1,4 @@
-# 🚀 DevOps Assignment – FastAPI + PostgreSQL (Dockerized)
+# 🚀 DevOps Assignment 1
 
 ## 👨‍💻 Student Details
 - **Name:** Vishal Singh  
@@ -7,37 +7,3 @@
 
 ---
 
-## 📌 Project Overview
-This project demonstrates a containerized web application using **FastAPI** as backend and **PostgreSQL** as database.  
-Docker and Docker Compose are used to manage and run multiple services efficiently.
-
----
-
-## ⚙️ Tech Stack
-- FastAPI (Backend)
-- PostgreSQL (Database)
-- Docker (Containerization)
-- Docker Compose (Orchestration)
-
----
-
-## 🧠 Concepts Used
-- Containerization
-- Multi-container architecture
-- Docker networking
-- Persistent storage using volumes
-
----
-
-## ⚙️ Project Structure
-DevOps-Assignment/
-```
-│
-├── backend/
-├── database/
-├── docker-compose.yml
-├── index.html
-├── screenshots.html
-├── report.pdf
-└── README.md
-```
