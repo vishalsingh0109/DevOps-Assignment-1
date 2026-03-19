@@ -1,0 +1,32 @@
+version: "3.9"
+
+services:
+  db:
+    build: ./database
+    container_name: postgres_db
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - mynet
+
+  backend:
+    build: ./backend
+    container_name: fastapi_app
+    depends_on:
+      - db
+    environment:
+      DB_HOST: db
+      POSTGRES_DB: mydb
+      POSTGRES_USER: myuser
+      POSTGRES_PASSWORD: mypass
+    ports:
+      - "8000:8000"
+    networks:
+      - mynet
+
+volumes:
+  pgdata:
+
+networks:
+  mynet:
+    driver: bridge
