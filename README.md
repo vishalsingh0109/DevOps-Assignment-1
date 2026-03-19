@@ -32,10 +32,10 @@ Docker and Docker Compose are used to manage and run multiple services efficient
 ## ⚙️ Project Structure
 DevOps-Assignment/
 -│
--├── backend/
--├── database/
--├── docker-compose.yml
--├── index.html
--├── screenshots.html
--├── report.pdf
--└── README.md
+  -├── backend/
+├── database/
+├── docker-compose.yml
+├── index.html
+├── screenshots.html
+├── report.pdf
+└── README.md
