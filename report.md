@@ -17,7 +17,7 @@ Docker and Docker Compose are used to manage and run multiple services efficient
 - FastAPI (Backend)
 - PostgreSQL (Database)
 - Docker (Containerization)
-- Docker Compose (Orchestration)
+- Docker Compose (Orchestrations)
 
 ---
 
